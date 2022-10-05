@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 5px;
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 264px);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 5px;
 }
 
@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .coffee__img {
-  width: 70%;
+  width: 120px;
   height: 120px;
   -o-object-fit: cover;
      object-fit: cover;
